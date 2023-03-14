@@ -16,7 +16,7 @@
         "skipLibCheck": true,
         "strict": true,
         "traceResolution": false,
-        "types": ["node", "jest"]
+        "types": ["node"]
   },
   "plugins": [{
     "name": "typescript-plugin-proactive-code-fixes"
