@@ -12,7 +12,7 @@
     }
   },
   "scripts": {
-    "postinstall": "cd ../../.. && pwd && husky install && npm run build",
+    "postinstall": "npm run build && cd ../../.. && pwd && husky install",
     "prepublishOnly": "pinst --disable",
     "postpublish": "pinst --enable",
     "build": "npm run build:cjs && npm run build:esm",
