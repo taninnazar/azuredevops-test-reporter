@@ -71,5 +71,7 @@ export async function getLastTestRunId(
     throw new Error()
   }
 
+  testRun.sort((a, b) => a.id - b.id)
+
   return testRun[testRun.length - 1].id
 }
