@@ -24,7 +24,7 @@
     "package": "npm run build && npm pack",
     "test": "jest --no-cache --runInBand",
     "test:cov": "jest --coverage --no-cache --runInBand",
-    "addscope": "node tools/packagejson name @gmangiapelo/azuredevops-test-reporter",
+    "addscope": "node tools/packagejson name @taninnazar/azuredevops-test-reporter",
     "sample": "node tools/cleanup cjs && tsc -p config/tsconfig.cjs.json && node dist/cjs/samples/test-plan-reporter.js"
   },
   "publishConfig": {
